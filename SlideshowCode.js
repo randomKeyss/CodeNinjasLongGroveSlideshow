@@ -1,3 +1,5 @@
+
+alert("we are in");
 var styles = `
 .slides {
     position: absolute;
