@@ -1,4 +1,4 @@
-
+fuction(window){
 alert("we are in");
 var styles = `
 .slides {
@@ -54,4 +54,5 @@ function nextSlide() {
     lis.childNodes[currentSlide].className = 'slide';
     currentSlide = (currentSlide+1)%slides.length;
     lis.childNodes[currentSlide].className = 'slide showing';
+}
 }
