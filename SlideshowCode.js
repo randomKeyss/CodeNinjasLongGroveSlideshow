@@ -1,6 +1,6 @@
 (function(){
 alert("we are in");
-/*var styles = `
+var styles = `
 .slides {
     position: absolute;
     left:10%;
@@ -54,5 +54,5 @@ function nextSlide() {
     lis.childNodes[currentSlide].className = 'slide';
     currentSlide = (currentSlide+1)%slides.length;
     lis.childNodes[currentSlide].className = 'slide showing';
-}*/
+}
 })();
