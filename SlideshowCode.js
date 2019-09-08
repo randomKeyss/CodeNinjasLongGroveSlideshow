@@ -1,4 +1,4 @@
-fuction(window){
+(function(){
 alert("we are in");
 var styles = `
 .slides {
@@ -55,4 +55,4 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     lis.childNodes[currentSlide].className = 'slide showing';
 }
-}
+})();
