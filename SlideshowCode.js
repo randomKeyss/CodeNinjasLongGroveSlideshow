@@ -39,7 +39,7 @@ document.head.appendChild(styleSheet);
 
 
 
-var urls = ["https://i.pinimg.com/originals/1b/1b/84/1b1b84916d0700010167ad12ebd3c635.jpg","https://i.pinimg.com/originals/2c/17/7a/2c177afdba4e7abec95ebecec6df06d3.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/fa/95/3e/fa953e86-b94b-a501-93d5-c4fb76aa20b7/source/256x256bb.jpg"];
+var urls = ["https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://i.pinimg.com/originals/1b/1b/84/1b1b84916d0700010167ad12ebd3c635.jpg","https://i.pinimg.com/originals/2c/17/7a/2c177afdba4e7abec95ebecec6df06d3.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/fa/95/3e/fa953e86-b94b-a501-93d5-c4fb76aa20b7/source/256x256bb.jpg"];
 var lis = document.createElement("DIV");
 lis.classList.add("slides");
 for(let i = 0; i<urls.length;i++){
