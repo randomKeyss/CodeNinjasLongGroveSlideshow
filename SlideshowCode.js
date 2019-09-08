@@ -52,7 +52,7 @@ var slideInterval = setInterval(nextSlide,10000);
 
 function nextSlide() {
     lis.childNodes[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
+    currentSlide = (currentSlide+1)%urls.length;
     lis.childNodes[currentSlide].className = 'slide showing';
 }
 })();
