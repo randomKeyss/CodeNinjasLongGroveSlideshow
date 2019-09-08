@@ -1,6 +1,6 @@
 (function(){
 alert("we are in");
-var styles = `
+/*var styles = `
 .slides {
     position: absolute;
     left:10%;
@@ -38,7 +38,7 @@ document.head.appendChild(styleSheet);
 
 
 
-var urls = ["https://ibb.co/7yzbVNJ"]
+var urls = ["https://ibb.co/7yzbVNJ"];
 var lis = document.createElement("DIV");
 lis.classList.add("slides");
 for(let i = 0; i<urls.length:i++){
@@ -54,5 +54,5 @@ function nextSlide() {
     lis.childNodes[currentSlide].className = 'slide';
     currentSlide = (currentSlide+1)%slides.length;
     lis.childNodes[currentSlide].className = 'slide showing';
-}
+}*/
 })();
