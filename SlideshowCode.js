@@ -49,6 +49,7 @@ for(let i = 0; i<urls.length;i++){
 }
 document.body.appendChild(lis);
 var currentSlide = 0;
+nextSlide();
 var slideInterval = setInterval(nextSlide,10000);
 
 function nextSlide() {
