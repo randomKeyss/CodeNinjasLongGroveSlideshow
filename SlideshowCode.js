@@ -5,6 +5,7 @@ var styles = `
     position: absolute;
     left:10%;
     top:70%;
+    width: 300px;
     height: 300px;
     padding: 0px;
     margin: 0px;
