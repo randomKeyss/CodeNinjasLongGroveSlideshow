@@ -41,7 +41,7 @@ document.head.appendChild(styleSheet);
 var urls = ["https://ibb.co/7yzbVNJ"];
 var lis = document.createElement("DIV");
 lis.classList.add("slides");
-for(let i = 0; i<urls.length:i++){
+for(let i = 0; i<urls.length;i++){
 	var li = document.createElement("img");
 	li.setAttribute("href",urls[i]);
 	lis.appendChild(li);
