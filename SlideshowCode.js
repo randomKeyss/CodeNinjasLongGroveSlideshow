@@ -3,10 +3,10 @@ alert("we are in");
 var styles = `
 .slides {
     position: absolute;
-    left:10%;
+    left:70%%;
     top:70%;
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
     padding: 0px;
     margin: 0px;
 }
@@ -45,10 +45,11 @@ lis.classList.add("slides");
 for(let i = 0; i<urls.length;i++){
 	var li = document.createElement("img");
 	li.setAttribute("src",urls[i]);
+	li.className = 'slide';
 	lis.appendChild(li);
 }
 document.body.appendChild(lis);
-var currentSlide = 0;
+var currentSlide = urls.length-1;
 nextSlide();
 var slideInterval = setInterval(nextSlide,10000);
 
