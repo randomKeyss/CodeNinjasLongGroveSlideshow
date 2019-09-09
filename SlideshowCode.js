@@ -3,7 +3,7 @@ alert("we are in");
 var styles = `
 .slides {
     position: absolute;
-    left:70%%;
+    left:70%;
     top:70%;
     width: 30%;
     height: 30%;
