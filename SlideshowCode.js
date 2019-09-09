@@ -1,8 +1,8 @@
 (function(){
-alert("we are in");
+alert("hi kayla");
 var styles = `
 .slides {
-    position: absolute;
+    position: fixed;
     left:70%;
     top:70%;
     width: 30%;
